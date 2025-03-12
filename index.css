@@ -6,13 +6,18 @@ body {
   background: linear-gradient(to right, #a8c0ff, #3f2b96);
 }
 
-.header_company_name {
+.header_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
   background-color: #f8f9fa;
   border-bottom: 1px solid #e9ecef;
+}
+
+.header_container img {
+  width: 2rem;
+  height: 2rem;
 }
 
 .container {
